@@ -18,5 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="id.kotlin.sample.ktx.sharedprefs.SharedPrefsActivity" />
+        <activity android:name="id.kotlin.sample.ktx.uri.UriActivity" />
+        <activity android:name="id.kotlin.sample.ktx.htmlencode.HtmlEncodeActivity" />
     </application>
 </manifest>
