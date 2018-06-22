@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="menu">
+        <item>@string/menu_shared_prefs</item>
+        <item>@string/menu_uri</item>
+        <item>@string/menu_html</item>
+    </string-array>
+</resources>
