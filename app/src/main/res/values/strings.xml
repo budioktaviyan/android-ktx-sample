@@ -3,4 +3,6 @@
     <string name="menu_shared_prefs">Shared Prefs</string>
     <string name="menu_uri">Uri</string>
     <string name="menu_html">Html Encode</string>
+    <string name="hint_name">Please input your name</string>
+    <string name="button_save">Save</string>
 </resources>

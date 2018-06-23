@@ -15,4 +15,40 @@
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/menu_shared_prefs"
         app:titleTextColor="@color/colorPrimary" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_sharedprefs"
+        android:layout_margin="8dp"
+        android:hint="@string/hint_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="Budi Oktaviyan Suryanto" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/button_save"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
 </RelativeLayout>
