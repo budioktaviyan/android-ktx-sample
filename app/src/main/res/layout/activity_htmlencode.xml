@@ -15,4 +15,39 @@
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/menu_html"
         app:titleTextColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/text_html"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_htmlencode"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="@string/label_html"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_encode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_encode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/button_encode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
 </RelativeLayout>

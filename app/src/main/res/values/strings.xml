@@ -3,8 +3,10 @@
     <string name="menu_shared_prefs">Shared Prefs</string>
     <string name="menu_uri">Uri</string>
     <string name="menu_html">Html Encode</string>
+    <string name="label_html"><b>This text will <u>encode</u> from <i>HTML</i> format</b></string>
     <string name="hint_name">Please input your name</string>
     <string name="hint_phone">Please input your phone number</string>
     <string name="button_save">Save</string>
     <string name="button_call">Call</string>
+    <string name="button_encode">Encode</string>
 </resources>
